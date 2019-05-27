@@ -4,7 +4,6 @@ logo = document.getElementById("logo").style;
 elemLogo = document.getElementById("logo");
 
 audio = document.getElementById("audio");
-audio.crossOrigin="anonymous";
 
 window.onclick = function(){
     elemLogo.classList.toggle('extra');
