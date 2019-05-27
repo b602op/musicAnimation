@@ -19,15 +19,10 @@ window.onclick = function(){
 
 function preparation(){
     context = new AudioContext();
-    console.log(context, "1");
     analyser = context.createAnalyser();
-    console.log(analyser, "2" );
     src = context.createMediaElementSource(audio);
-    console.log(src, "3");
     src.connect(analyser);
-    console.log(src.connect(analyser), "4");
     analyser.connect(context.destination);
-    console.log(analyser.connect(context.destination), "5");
     loop();
 }
 
