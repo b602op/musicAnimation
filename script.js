@@ -6,6 +6,7 @@ audio = document.getElementById("audio");
 audio.crossOrigin="anonymous";
 
 window.onclick = function(){
+    logo.classList.toggle("extra");
     if(!context){
         preparation();
     }
