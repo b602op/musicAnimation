@@ -4,5 +4,3 @@
 Ссылка на проект: https://b602op.github.io/musicAnimation/
 
 статья, взятая за основу: https://html5.by/blog/audio/
-
-
