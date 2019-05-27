@@ -33,7 +33,9 @@ function loop(){
     array = new Uint8Array(analyser.frequencyBinCount);
     analyser.getByteFrequencyData(array);
 
-    logo.minHeight = (array[40])+"px";
+    logo.minHeight = (array[80])+"px";
     logo.width =  (array[40])+"px";
-    logo.backgroundColor =  "#"+(array[40]);
+    logo.backgroundColor =  "#DDF"+(array[40]);
+    logo.borderRadius =  (array[0])+"%";
+    logo.boxShadow = "0px 0px 135px 59px rgba("+array[10]+","+array[50]+","+array[500]+",1)";
 }
