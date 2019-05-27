@@ -35,4 +35,5 @@ function loop(){
 
     logo.minHeight = (array[40])+"px";
     logo.width =  (array[40])+"px";
+    logo.background-color =  "#"+(array[40]);
 }
