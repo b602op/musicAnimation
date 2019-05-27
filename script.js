@@ -1,12 +1,13 @@
-var audio, context, analyser, src, array, logo;
+var audio, context, analyser, src, array, logo, elemLogo;
 
 logo = document.getElementById("logo").style;
+elemLogo = document.getElementById("logo");
 
 audio = document.getElementById("audio");
 audio.crossOrigin="anonymous";
 
 window.onclick = function(){
-    logo.classList.toggle("extra");
+    elemLogo.classList.toggle('extra');
     if(!context){
         preparation();
     }
