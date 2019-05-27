@@ -2,7 +2,6 @@
     width: 500px;
     min-height: 500px;
     border-radius: 50%;
-    background: red;
 }
 body{
     display: flex;
@@ -12,4 +11,9 @@ body{
     width: 100vw;
     min-height: 100vh;
     background: #1e1e1e;
+}
+
+img {
+    width: 100%
+    heiht: 100%;
 }
